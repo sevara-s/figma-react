@@ -1,0 +1,152 @@
+.header {
+  background: #2b150d;
+  padding: 15px;
+}
+.header > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.loc1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.loc1 a {
+  font-weight: 600;
+  font-size: 13px;
+  color: #fff;
+}
+.header_right > ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+li > a {
+  font-weight: 400;
+  font-size: 13px;
+  color: #fff;
+}
+
+/* header_bottom started */
+.header_bottom {
+  margin-top: 40px;
+}
+.header_bottom > .container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.colors {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.colors > p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+  text-align: center;
+}
+.top_search {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.tick {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.phone_numbers {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+}
+.email {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+}
+input::placeholder {
+  font-weight: 300;
+  font-size: 14px;
+  color: #818181;
+}
+.inputSearch {
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  width: 758px;
+  height: 45px;
+  background: #fff;
+  padding: 5px;
+  outline: none;
+}
+.btn {
+  position: relative;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text p {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #000;
+}
+.searching {
+  display: flex;
+}
+.phone_numbers {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.phone_numbers p {
+  font-weight: 400;
+  font-size: 13px;
+  color: #000;
+}
+.phone_numbers h2 {
+  font-weight: 300;
+  font-size: 15px;
+  color: #000;
+}
+.email a {
+  font-weight: 400;
+  font-size: 13px;
+  color: #000;
+}
+.btn1 {
+  border-radius: 6px;
+  background: #ff7a1b;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  border: none;
+  padding: 10px;
+}
+.btn1:hover{
+    background-color: #dbb392;
+}

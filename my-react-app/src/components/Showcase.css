@@ -1,0 +1,36 @@
+/* categories started */
+.categories {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.categories > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.category1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #ffd634;
+  padding: 10px;
+}
+.category1 h1 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+.category2 h1 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+.category2 {
+  padding: 10px;
+}
+.category2:hover {
+  background-color: #ffd634;
+}
+.slide1{
+    background-color: #c4c4c4;
+}
