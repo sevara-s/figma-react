@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Showcase from "./components/Showcase";
 import Garden from "./components/Garden";
 import Products from "./components/Products";
+import Clients from "./components/Clients";
 import "./App.css"; // Import styles specific to this component
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Showcase />
       <Garden />
       <Products />
+      <Clients />
     </>
   );
 }

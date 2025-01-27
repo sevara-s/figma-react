@@ -1,0 +1,119 @@
+.clients_header {
+  font-weight: 400;
+  font-size: 32px;
+  color: #000;
+  margin-bottom: 30px;
+}
+.clients {
+  background-color: #f9f8f3;
+  padding: 15px;
+}
+.comment_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.comment_left {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.comment_left h5 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 97%;
+  color: #000;
+}
+.comment_left p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 97%;
+  color: #bbb;
+}
+.comment_right p {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 97%;
+  text-align: right;
+  color: #2b150d;
+}
+.comment1 p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 144%;
+  color: #000;
+}
+.comment1 a {
+  font-family: "Museo Sans Cyrl", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 144%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #ff7a1b;
+}
+.comment1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid #e8e8e8;
+  padding: 15px;
+  background-color: white;
+}
+.comments {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.btnOpen {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  background: #ff7a1b;
+  padding: 5px 10px;
+}
+.lastBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.house {
+  margin-top: 50px;
+}
+.house > .container {
+  display: flex;
+  gap: 30px;
+}
+.house_left h1 {
+  font-weight: 400;
+  font-size: 32px;
+  color: #000;
+}
+.border1 {
+  border: 1px solid #ff7a1b;
+}
+.house_left p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 158%;
+  color: #000;
+}
+.quote {
+  display: flex;
+  gap: 10px;
+}
+.quote p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 158%;
+  color: #000;
+}
+.house_left {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
